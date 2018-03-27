@@ -97,6 +97,7 @@ void Average(){
   else{
   }
 }
+//NOTE: You don't need this. Mine is set to just digitally reset, saying it did.
 //Resets all data 
 void FLUSH(){
   if (digitalRead(RESET) == 1){
